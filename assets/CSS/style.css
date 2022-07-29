@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+
+}
+
+.dinheiro {
+    display: flex;
+    max-height: 700px;
+    background-size: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#atualizar-saldo {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+}
+
+#limpar-saldo {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+
+#campo-saldo {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    justify-content: space-evenly;
+    color: blue;
+    background-color: #fff;
+
+}
+
+#soma {
+    display: flex;
+    width: 350px;
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+}
+
+.texto {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+    align-items: center;
+    color: green;
+    font-size: 15px;
+}
+
+
+.botoes {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    height: 110px;
+    min-width: 320px;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+
+}
